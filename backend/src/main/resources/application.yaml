@@ -16,7 +16,7 @@ spring:
         format_sql: true
 
 jwt:
-  expiration: ${JWT_EXPIRATION:604800000}
+  expiration: ${JWT_EXPIRATION}
   key: ${JWT_KEY}
 
 springdoc:
